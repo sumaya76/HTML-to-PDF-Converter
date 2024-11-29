@@ -1,0 +1,44 @@
+/* TailwindCSS Customization */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+body {
+  background-color: #f7fafc; /* Light Gray Background */
+  font-family: 'Arial', sans-serif;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+button {
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3182ce; /* Hover effect for buttons */
+}
+
+textarea,
+input {
+  font-size: 1rem;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
